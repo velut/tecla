@@ -21,6 +21,7 @@
         "forge": "./forge.config.js"
     },
     "dependencies": {
+        "electron-context-menu": "^2.5.0",
         "electron-squirrel-startup": "^1.0.0",
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
