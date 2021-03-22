@@ -27,14 +27,6 @@
             "pre-push": "yarn pre-push"
         }
     },
-    "prettier": {
-        "printWidth": 80,
-        "tabWidth": 4,
-        "semi": true,
-        "singleQuote": true,
-        "trailingComma": "es5",
-        "arrowParens": "always"
-    },
     "dependencies": {
         "electron-squirrel-startup": "^1.0.0",
         "react": "^17.0.1",
