@@ -20,13 +20,6 @@
     "config": {
         "forge": "./forge.config.js"
     },
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-            "pre-commit": "yarn lint",
-            "pre-push": "yarn pre-push"
-        }
-    },
     "dependencies": {
         "electron-squirrel-startup": "^1.0.0",
         "react": "^17.0.1",
