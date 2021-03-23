@@ -23,8 +23,8 @@
     "dependencies": {
         "electron-context-menu": "^2.5.0",
         "electron-squirrel-startup": "^1.0.0",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1"
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
     },
     "devDependencies": {
         "@commitlint/cli": "12.0.1",
