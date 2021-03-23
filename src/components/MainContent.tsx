@@ -1,28 +1,33 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+import { About } from './About';
+import { Home } from './Home';
+import { LoadConfig } from './LoadConfig';
+import { NewConfig } from './NewConfig';
+import { Settings } from './Settings';
 
 export function MainContent() {
     return (
-        <main className="h-full">
+        <main className="h-full p-4">
             <Switch>
                 <Route exact path="/">
-                    <p>Home</p>
+                    <Home />
                 </Route>
 
                 <Route path="/new">
-                    <p>New</p>
+                    <NewConfig />
                 </Route>
 
                 <Route path="/load">
-                    <p>Load</p>
+                    <LoadConfig />
                 </Route>
 
                 <Route path="/settings">
-                    <p>Settings</p>
+                    <Settings />
                 </Route>
 
                 <Route path="/about">
-                    <p>About</p>
+                    <About />
                 </Route>
             </Switch>
         </main>

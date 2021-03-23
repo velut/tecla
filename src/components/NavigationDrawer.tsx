@@ -8,7 +8,7 @@ import { SettingsIcon } from './SettingsIcon';
 
 export function NavigationDrawer() {
     return (
-        <aside className="h-full border-r border-gray-300 w-14">
+        <aside className="w-16 h-full border-r border-gray-300 dark:border-gray-700">
             <ul className="flex flex-col items-center justify-between h-full py-4 max-h-72">
                 <li>
                     <Link className="block p-1" to="/">

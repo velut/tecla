@@ -1,5 +1,7 @@
 import React from 'react';
 
 export function StatusBar() {
-    return <footer className="h-6 border-t border-gray-300"></footer>;
+    return (
+        <footer className="h-6 border-t border-gray-300 dark:border-gray-700"></footer>
+    );
 }
