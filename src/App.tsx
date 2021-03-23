@@ -1,10 +1,6 @@
 import React from 'react';
-import { Foo } from './components/Foo';
+import { AppContainer } from './components/AppContainer';
 
 export function App() {
-    return (
-        <div>
-            <Foo />
-        </div>
-    );
+    return <AppContainer />;
 }
