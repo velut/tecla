@@ -1,15 +1,33 @@
 import React from 'react';
-import { CogIcon } from './CogIcon';
+import { HomeIcon } from './HomeIcon';
+import { InfoIcon } from './InfoIcon';
+import { LoadIcon } from './LoadIcon';
+import { NewIcon } from './NewIcon';
+import { SettingsIcon } from './SettingsIcon';
 
 export function NavigationDrawer() {
     return (
-        <aside className="w-16 h-full bg-green-200 border-r border-black">
-            <ul className="flex flex-col items-center justify-between flex-grow h-full py-4 bg-indigo-500">
-                {Array.from(Array(5).keys()).map((id) => (
-                    <li key={id} className="bg-pink-400">
-                        <CogIcon className="w-8 h-8" />
-                    </li>
-                ))}
+        <aside className="h-full border-r border-gray-300 w-14">
+            <ul className="flex flex-col items-center justify-between flex-grow h-full py-4">
+                <li className="p-2">
+                    <HomeIcon className="w-8 h-8" />
+                </li>
+
+                <li className="p-2">
+                    <NewIcon className="w-8 h-8" />
+                </li>
+
+                <li className="p-2">
+                    <LoadIcon className="w-8 h-8" />
+                </li>
+
+                <li className="p-2">
+                    <SettingsIcon className="w-8 h-8" />
+                </li>
+
+                <li className="p-2">
+                    <InfoIcon className="w-8 h-8" />
+                </li>
             </ul>
         </aside>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function CogIcon({ className }: { className: string }) {
+export function SettingsIcon({ className }: { className: string }) {
     return (
         <svg
             className={className}
@@ -8,7 +8,11 @@ export function CogIcon({ className }: { className: string }) {
             stroke="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Settings icon"
         >
+            <title>Settings</title>
+            <desc>Settings icon</desc>
             <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
