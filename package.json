@@ -1,6 +1,6 @@
 {
     "name": "tecla",
-    "productName": "tecla",
+    "productName": "Tecla",
     "version": "1.0.0",
     "description": "Tecla - The interactive file organizer",
     "main": ".webpack/main",
