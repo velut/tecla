@@ -7,22 +7,14 @@ import { StatusBar } from './StatusBar';
 export function AppContainer() {
     return (
         <MemoryRouter>
-            <div className="w-screen h-screen text-gray-900 bg-white dark:bg-gray-800 dark:text-gray-200">
-                <div className="flex flex-col h-full">
-                    <div className="flex flex-grow">
-                        <div>
-                            <NavigationDrawer />
-                        </div>
+            <div className="flex flex-col w-screen h-screen overflow-hidden text-gray-900 bg-white dark:bg-gray-800 dark:text-gray-200">
+                <div className="flex flex-grow">
+                    <NavigationDrawer />
 
-                        <div className="flex-grow">
-                            <MainContent />
-                        </div>
-                    </div>
-
-                    <div>
-                        <StatusBar />
-                    </div>
+                    <MainContent />
                 </div>
+
+                <StatusBar />
             </div>
         </MemoryRouter>
     );
