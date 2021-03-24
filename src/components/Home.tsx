@@ -1,9 +1,6 @@
 import React from 'react';
+import { Page } from './Page';
 
 export function Home() {
-    return (
-        <div>
-            <h1 className="font-bold">Home</h1>
-        </div>
-    );
+    return <Page title="Home"></Page>;
 }

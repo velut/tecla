@@ -1,9 +1,6 @@
 import React from 'react';
+import { Page } from './Page';
 
 export function LoadConfig() {
-    return (
-        <div>
-            <h1 className="font-bold">LoadConfig</h1>
-        </div>
-    );
+    return <Page title="Load Configuration"></Page>;
 }
