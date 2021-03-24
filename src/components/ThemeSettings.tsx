@@ -25,7 +25,7 @@ export function ThemeSettings() {
                     <label htmlFor="dark-theme-setting">Dark theme</label>
 
                     <input
-                        className="w-4 h-4 rounded"
+                        className="w-4 h-4 text-blue-500 rounded"
                         id="dark-theme-setting"
                         name="dark-theme-setting"
                         type="checkbox"

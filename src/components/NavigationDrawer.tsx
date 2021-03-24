@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { HomeIcon } from './HomeIcon';
 import { InfoIcon } from './InfoIcon';
 import { LoadIcon } from './LoadIcon';
@@ -11,33 +11,58 @@ export function NavigationDrawer() {
         <aside className="flex-none w-16 border-r border-gray-300 dark:border-gray-700">
             <ul className="flex flex-col items-center justify-between h-full py-4 max-h-72">
                 <li>
-                    <Link className="block p-1" to="/">
+                    <NavLink
+                        className="block p-1"
+                        activeClassName="text-blue-500"
+                        to="/"
+                        exact
+                    >
                         <HomeIcon className="w-8 h-8" />
-                    </Link>
+                    </NavLink>
                 </li>
 
                 <li>
-                    <Link className="block p-1" to="/new">
+                    <NavLink
+                        className="block p-1"
+                        activeClassName="text-blue-500"
+                        to="/new"
+                        exact
+                    >
                         <NewIcon className="w-8 h-8" />
-                    </Link>
+                    </NavLink>
                 </li>
 
                 <li>
-                    <Link className="block p-1" to="/load">
+                    <NavLink
+                        className="block p-1"
+                        activeClassName="text-blue-500"
+                        to="/load"
+                        exact
+                    >
                         <LoadIcon className="w-8 h-8" />
-                    </Link>
+                    </NavLink>
                 </li>
 
                 <li>
-                    <Link className="block p-1" to="/settings">
+                    <NavLink
+                        className="block p-1"
+                        activeClassName="text-blue-500"
+                        to="/settings"
+                        exact
+                    >
                         <SettingsIcon className="w-8 h-8" />
-                    </Link>
+                    </NavLink>
                 </li>
 
                 <li>
-                    <Link className="block p-1" to="/about">
+                    <NavLink
+                        className="block p-1"
+                        activeClassName="text-blue-500"
+                        to="/about"
+                        exact
+                    >
                         <InfoIcon className="w-8 h-8" />
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
         </aside>
