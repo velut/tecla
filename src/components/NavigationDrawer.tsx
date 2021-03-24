@@ -14,6 +14,7 @@ export function NavigationDrawer() {
                     <NavLink
                         className="block p-1"
                         activeClassName="text-blue-500"
+                        title="Home"
                         to="/"
                         exact
                     >
@@ -25,6 +26,7 @@ export function NavigationDrawer() {
                     <NavLink
                         className="block p-1"
                         activeClassName="text-blue-500"
+                        title="New Configuration"
                         to="/new"
                         exact
                     >
@@ -36,6 +38,7 @@ export function NavigationDrawer() {
                     <NavLink
                         className="block p-1"
                         activeClassName="text-blue-500"
+                        title="Load Configuration"
                         to="/load"
                         exact
                     >
@@ -47,6 +50,7 @@ export function NavigationDrawer() {
                     <NavLink
                         className="block p-1"
                         activeClassName="text-blue-500"
+                        title="Settings"
                         to="/settings"
                         exact
                     >
@@ -58,6 +62,7 @@ export function NavigationDrawer() {
                     <NavLink
                         className="block p-1"
                         activeClassName="text-blue-500"
+                        title="Info"
                         to="/about"
                         exact
                     >

@@ -11,8 +11,8 @@ export function LoadIcon({ className }: { className: string }) {
             role="img"
             aria-label="Load icon"
         >
-            <title>Load</title>
-            <desc>Load icon</desc>
+            <title>Load Configuration</title>
+            <desc>Load configuration icon</desc>
             <path
                 strokeLinecap="round"
                 strokeLinejoin="round"

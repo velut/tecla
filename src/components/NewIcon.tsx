@@ -11,8 +11,8 @@ export function NewIcon({ className }: { className: string }) {
             role="img"
             aria-label="New icon"
         >
-            <title>New</title>
-            <desc>New icon</desc>
+            <title>New Configuration</title>
+            <desc>New configuration icon</desc>
             <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
