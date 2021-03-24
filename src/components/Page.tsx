@@ -11,7 +11,9 @@ export function Page({
         <section className="flex flex-col flex-grow h-0 space-y-4">
             <h1 className="text-2xl font-bold">{title}</h1>
 
-            <div className="overflow-y-auto">{children}</div>
+            <div className="overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-700 scrollbar-thumb-rounded">
+                {children}
+            </div>
         </section>
     );
 }
