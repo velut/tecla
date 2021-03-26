@@ -8,7 +8,7 @@ import { Settings } from './Settings';
 
 export function MainContent() {
     return (
-        <main className="flex flex-col flex-grow p-4">
+        <main className="flex flex-col flex-grow">
             <Switch>
                 <Route exact path="/">
                     <Home />
