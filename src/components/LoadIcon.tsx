@@ -1,6 +1,16 @@
 import React from 'react';
 
-export function LoadIcon({ className }: { className: string }) {
+export function LoadIcon({
+    className,
+    'aria-label': ariaLabel = 'Load icon',
+    title = 'Load Configuration',
+    desc = 'Load configuration icon',
+}: {
+    className: string;
+    'aria-label'?: string;
+    title?: string;
+    desc?: string;
+}) {
     return (
         <svg
             className={className}
@@ -9,10 +19,10 @@ export function LoadIcon({ className }: { className: string }) {
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             role="img"
-            aria-label="Load icon"
+            aria-label={ariaLabel}
         >
-            <title>Load Configuration</title>
-            <desc>Load configuration icon</desc>
+            <title>{title}</title>
+            <desc>{desc}</desc>
             <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
