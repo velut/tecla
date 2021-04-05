@@ -30,7 +30,7 @@
         "yup": "^0.32.9"
     },
     "devDependencies": {
-        "@commitlint/cli": "12.0.1",
+        "@commitlint/cli": "12.1.1",
         "@commitlint/config-conventional": "12.0.1",
         "@electron-forge/cli": "6.0.0-beta.54",
         "@electron-forge/maker-deb": "6.0.0-beta.54",
