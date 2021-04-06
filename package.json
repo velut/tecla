@@ -1,4 +1,5 @@
 {
+    "private": true,
     "name": "tecla",
     "productName": "Tecla",
     "version": "1.0.0",
@@ -10,11 +11,12 @@
         "make": "cross-env NODE_ENV=production electron-forge make",
         "publish": "electron-forge publish",
         "lint": "eslint --ext .ts .",
-        "pre-push": "yarn lint"
+        "pre-push": "yarn lint",
+        "prepare": "husky install"
     },
     "keywords": [],
     "author": {
-        "name": "velut"
+        "name": "Edoardo Scibona (velut)"
     },
     "license": "GPL-3.0-or-later",
     "config": {
@@ -30,8 +32,8 @@
         "yup": "^0.32.9"
     },
     "devDependencies": {
-        "@commitlint/cli": "12.0.1",
-        "@commitlint/config-conventional": "12.0.1",
+        "@commitlint/cli": "12.1.1",
+        "@commitlint/config-conventional": "12.1.1",
         "@electron-forge/cli": "6.0.0-beta.54",
         "@electron-forge/maker-deb": "6.0.0-beta.54",
         "@electron-forge/maker-rpm": "6.0.0-beta.54",
@@ -44,8 +46,8 @@
         "@types/react": "17.0.3",
         "@types/react-dom": "17.0.3",
         "@types/react-router-dom": "5.1.7",
-        "@typescript-eslint/eslint-plugin": "4.19.0",
-        "@typescript-eslint/parser": "4.19.0",
+        "@typescript-eslint/eslint-plugin": "4.21.0",
+        "@typescript-eslint/parser": "4.21.0",
         "autoprefixer": "10.2.5",
         "cross-env": "7.0.3",
         "css-loader": "5.2.0",
@@ -53,17 +55,17 @@
         "eslint": "7.23.0",
         "eslint-plugin-import": "2.22.1",
         "fork-ts-checker-webpack-plugin": "6.2.0",
-        "husky": "4.3.8",
-        "node-loader": "1.0.2",
-        "postcss": "8.2.8",
+        "husky": "6.0.0",
+        "node-loader": "1.0.3",
+        "postcss": "8.2.9",
         "postcss-loader": "4.2.0",
         "prettier": "2.2.1",
-        "react-refresh": "0.9.0",
+        "react-refresh": "0.10.0",
         "react-refresh-typescript": "1.1.1",
         "style-loader": "2.0.0",
         "stylelint-config-recommended": "4.0.0",
         "tailwind-scrollbar": "1.2.4",
-        "tailwindcss": "2.0.4",
+        "tailwindcss": "2.1.1",
         "ts-loader": "8.1.0",
         "typescript": "4.2.3",
         "webpack": "4.46.0"
