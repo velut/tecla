@@ -1,4 +1,5 @@
 {
+    "private": true,
     "name": "tecla",
     "productName": "Tecla",
     "version": "1.0.0",
@@ -15,7 +16,7 @@
     },
     "keywords": [],
     "author": {
-        "name": "velut"
+        "name": "Edoardo Scibona (velut)"
     },
     "license": "GPL-3.0-or-later",
     "config": {
