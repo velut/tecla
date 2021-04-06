@@ -10,7 +10,8 @@
         "make": "cross-env NODE_ENV=production electron-forge make",
         "publish": "electron-forge publish",
         "lint": "eslint --ext .ts .",
-        "pre-push": "yarn lint"
+        "pre-push": "yarn lint",
+        "prepare": "husky install"
     },
     "keywords": [],
     "author": {
@@ -53,7 +54,7 @@
         "eslint": "7.23.0",
         "eslint-plugin-import": "2.22.1",
         "fork-ts-checker-webpack-plugin": "6.2.0",
-        "husky": "4.3.8",
+        "husky": "6.0.0",
         "node-loader": "1.0.2",
         "postcss": "8.2.9",
         "postcss-loader": "4.2.0",
