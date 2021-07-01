@@ -27,7 +27,7 @@
         "electron-squirrel-startup": "^1.0.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
-        "react-hook-form": "^7.7.1",
+        "react-hook-form": "^7.9.0",
         "react-router-dom": "^5.2.0",
         "yup": "^0.32.9"
     },
@@ -43,7 +43,7 @@
         "@marshallofsound/webpack-asset-relocator-loader": "0.5.0",
         "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
         "@tailwindcss/forms": "0.3.2",
-        "@types/react": "17.0.8",
+        "@types/react": "17.0.13",
         "@types/react-dom": "17.0.5",
         "@types/react-router-dom": "5.1.7",
         "@typescript-eslint/eslint-plugin": "4.26.0",
