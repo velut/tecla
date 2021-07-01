@@ -59,7 +59,7 @@
         "node-loader": "1.0.3",
         "postcss": "8.3.0",
         "postcss-loader": "4.3.0",
-        "prettier": "2.3.0",
+        "prettier": "2.3.2",
         "react-refresh": "0.10.0",
         "react-refresh-typescript": "2.0.1",
         "style-loader": "2.0.0",
