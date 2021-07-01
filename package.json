@@ -54,7 +54,7 @@
         "electron": "13.0.1",
         "eslint": "7.27.0",
         "eslint-plugin-import": "2.23.4",
-        "fork-ts-checker-webpack-plugin": "6.2.10",
+        "fork-ts-checker-webpack-plugin": "6.2.12",
         "husky": "6.0.0",
         "node-loader": "1.0.3",
         "postcss": "8.3.0",
