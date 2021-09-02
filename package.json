@@ -55,7 +55,7 @@
         "eslint": "7.32.0",
         "eslint-plugin-import": "2.23.4",
         "fork-ts-checker-webpack-plugin": "6.2.12",
-        "husky": "7.0.0",
+        "husky": "7.0.2",
         "node-loader": "1.0.3",
         "postcss": "8.3.6",
         "postcss-loader": "4.3.0",
